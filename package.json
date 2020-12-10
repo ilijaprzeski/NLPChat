@@ -1,0 +1,57 @@
+{
+  "name": "Fiksal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
+    "accordion-collapse-react-native": "^0.1.11",
+    "axios": "^0.19.0",
+    "email-validator": "^2.0.4",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-background-downloader": "^2.2.0",
+    "react-native-check-box": "^2.1.7",
+    "react-native-contacts": "^5.0.4",
+    "react-native-date-ranges": "^2.5.0",
+    "react-native-document-picker": "^3.2.4",
+    "react-native-drop-down-item": "^1.0.5",
+    "react-native-extra-dimensions-android": "^1.2.5",
+    "react-native-file-viewer": "^2.0.0",
+    "react-native-firebase": "^5.5.6",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-image-picker": "^1.1.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.1",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-native-modal": "^11.4.0",
+    "react-native-phone-input": "^0.2.4",
+    "react-native-picker-select": "^6.3.3",
+    "react-native-progress": "^4.0.1",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-render-html": "^4.1.2",
+    "react-native-simple-toast": "^0.1.1",
+    "react-native-sms": "^1.9.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.12.1",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.2.2",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
